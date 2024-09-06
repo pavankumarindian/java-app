@@ -1,6 +1,6 @@
 <html>
 <body>
-<h1>Welcome to Procorp Corporate DevOps training with SCM testing with pipeline name</h1>
+<h1>Welcome to the World of DevOps Engineers</h1>
 <h2>Enter the details</h2>
 </body>
 <body style="color:red;">
