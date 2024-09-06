@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('ContinuousDownload') {
             steps {
-                 git 'https://github.com/techcorporatetrainigs/java-app.git'
+                 git 'https://github.com/pavankumarindian/java-app.git'
             }
         }
 
@@ -21,7 +21,7 @@ pipeline {
 
         stage('ContinuousTesting') {
             steps {
-                git branch: 'main', url: 'https://github.com/techcorporatetrainigs/testing.git'
+                git branch: 'main', url: 'https://github.com/pavankumarindian/testing.git'
                 sh 'java -jar /var/lib/jenkins/workspace/scripted-pipeline/testing.jar'
             }
         
